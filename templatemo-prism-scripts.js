@@ -1,12 +1,5 @@
 // JavaScript Document
 
-/*
-
-TemplateMo 600 Prism Flux
-
-https://templatemo.com/tm-600-prism-flux
-
-*/
 
 
 // Portfolio data for carousel
@@ -75,16 +68,7 @@ https://templatemo.com/tm-600-prism-flux
   { name: 'Google Cloud', icon: '☁️', level: 92, category: 'cloud' },
   
   // Programming Languages & Core
-  { name: '.NET Core', icon: '🔷', level: 90, category: 'core' },
-
-  //Font is awesome
-  { name: 'React.js', icon: 'fab fa-react', iconType: 'fontawesome', level: 60, category: 'frontend' },
-  { name: 'C#', icon: 'devicon-csharp-plain', iconType: 'devicon', level: 95, category: 'backend' },
-  { name: 'JavaScript', icon: 'fab fa-js', iconType: 'fontawesome', level: 70, category: 'frontend' },
-  { name: 'TypeScript', icon: 'devicon-typescript-plain', iconType: 'devicon', level: 88, category: 'frontend' },
-  { name: 'Python', icon: 'fab fa-python', iconType: 'fontawesome', level: 93, category: 'backend' },
-  { name: 'AWS', icon: 'fab fa-aws', iconType: 'fontawesome', level: 92, category: 'cloud' },
-  { name: 'SQL Server', icon: 'devicon-microsoftsqlserver-plain', iconType: 'devicon', level: 90, category: 'database' },
+  { name: '.NET Core', icon: '🔷', level: 90, category: 'core' }
 ];
 
         // Scroll to section function
