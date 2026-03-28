@@ -14,69 +14,61 @@ https://templatemo.com/tm-600-prism-flux
         const portfolioData = [
             {
                 id: 1,
-                title: 'Neural Network',
-                description: 'Advanced AI system with deep learning capabilities for predictive analytics and pattern recognition.',
-                image: 'images/neural-network.jpg',
-                tech: ['TensorFlow', 'Python', 'CUDA']
+                title: 'WEB renta de autos',
+                description: 'Migrado de página legacy(Laravel) a una versión moderna en Blazor con respuesta dinmicas.',
+                image: 'images/rentacar.png',
+                tech: ['Blazor', 'ASP .NET CORE API','C#', 'HTML5', 'CSS']
             },
             {
                 id: 2,
-                title: 'Quantum Cloud',
-                description: 'Next-generation cloud infrastructure leveraging quantum computing for unprecedented processing power.',
-                image: 'images/quantum-cloud.jpg',
-                tech: ['AWS', 'Kubernetes', 'Docker']
+                title: 'WEBS estáticas',
+                description: 'Alto rendimiento, prototipado y diseñado moderno, con respuestas dinámicas.',
+                image: 'images/propulsa.png                                                                                                                                                                                                                                                                                                                    nn',
+                tech: ['JavaScript', 'TypeScript', 'HTML5','CSS','Tailwind']
             },
             {
                 id: 3,
-                title: 'Blockchain Vault',
-                description: 'Secure decentralized storage solution using advanced encryption and distributed ledger technology.',
-                image: 'images/blockchain-vault.jpg',
-                tech: ['Ethereum', 'Solidity', 'Web3']
+                title: 'App recetas multiplataforma',
+                description: 'Alto rendimiento utilizando la mejor combinación entre multiplataforma con código nativo, gestión de tienda de aplicaciones.',
+                image: 'images/yummyplanner.png',
+                tech: ['C#', '.NET MAUI', 'Java','.NET Core', 'SQLite', 'SQL Server', 'ASP .NET Core API','Apache Spark']
             },
             {
                 id: 4,
-                title: 'Cyber Defense',
-                description: 'Military-grade cybersecurity framework with real-time threat detection and automated response.',
-                image: 'images/cyber-defense.jpg',
-                tech: ['Zero Trust', 'AI Defense', 'Encryption']
+                title: 'App finanzas',
+                description: 'Alto rendimiento, diseño moderno e intuitivo.',
+                image: 'images/mybudgy.png',
+                tech: ['C#','.NET MAUI','JAVA','SQLite', 'SQL Server']
             },
             {
                 id: 5,
-                title: 'Data Nexus',
-                description: 'Big data processing platform capable of analyzing petabytes of information in real-time.',
-                image: 'images/data-nexus.jpg',
-                tech: ['Apache Spark', 'Hadoop', 'Kafka']
-            },
-            {
-                id: 6,
-                title: 'AR Interface',
-                description: 'Augmented reality system for immersive data visualization and interactive experiences.',
-                image: 'images/ar-interface.jpg',
-                tech: ['Unity', 'ARCore', 'Computer Vision']
-            },
-            {
-                id: 7,
-                title: 'IoT Matrix',
-                description: 'Intelligent IoT ecosystem connecting millions of devices with edge computing capabilities.',
-                image: 'images/iot-matrix.jpg',
-                tech: ['MQTT', 'Edge AI', '5G']
+                title: 'WEB App (Sistema integral)',
+                description: 'Sistema integral con alto procesamiento de información, con una base de datos optimizada, UI intuitivo.',
+                image: 'images/¡dashboard.png',
+                tech: ['Apache Spark', 'C#','HTML5', 'CSS', 'Blazor Web Assemby','ASP .NET Core API']
             }
         ];
 
         // Skills data
         const skillsData = [
-            { name: 'React.js', icon: '⚛️', level: 95, category: 'frontend' },
-            { name: 'Node.js', icon: '🟢', level: 90, category: 'backend' },
+            { name: 'React.js', icon: '⚛️', level: 60, category: 'frontend' },
+            { name: 'C#', icon: '🟢', level: 95, category: 'backend' },
+            { name: 'C#', icon: '🟢', level: 90, category: 'frontend' },
+            { name: 'JavaScript', icon: '🟢', level: 70, category: 'frontend' },
+            { name: 'SQLite', icon: '🟢', level: 90, category: 'backend' },
+            { name: 'SQL Server', icon: '🟢', level: 90, category: 'backend' },
+            { name: 'MySQL', icon: '🟢', level: 90, category: 'backend' },
+            { name: 'JAVA', icon: '🟢', level: 90, category: 'programación' },
+            { name: '.NET MAUI', icon: '🟢', level: 90, category: 'frontend' },
+            { name: 'Blazor', icon: '🟢', level: 95, category: 'backend' },
+            { name: 'Blazor Web Assembly', icon: '🟢', level: 95, category: 'frontend' },
+            { name: '.NET Core API', icon: '🟢', level: 90, category: 'backend' },
+            { name: '.NET Core', icon: '🟢', level: 90, category: 'programación' },
             { name: 'TypeScript', icon: '📘', level: 88, category: 'frontend' },
             { name: 'AWS', icon: '☁️', level: 92, category: 'cloud' },
-            { name: 'Docker', icon: '🐳', level: 85, category: 'cloud' },
+            { name: 'Google Cloud', icon: '☁️', level: 92, category: 'cloud' },
             { name: 'Python', icon: '🐍', level: 93, category: 'backend' },
-            { name: 'Kubernetes', icon: '☸️', level: 82, category: 'cloud' },
-            { name: 'GraphQL', icon: '◈', level: 87, category: 'backend' },
-            { name: 'TensorFlow', icon: '🤖', level: 78, category: 'emerging' },
-            { name: 'Blockchain', icon: '🔗', level: 75, category: 'emerging' },
-            { name: 'Vue.js', icon: '💚', level: 85, category: 'frontend' },
-            { name: 'MongoDB', icon: '🍃', level: 90, category: 'backend' }
+            { name: 'GraphQL', icon: '◈', level: 87, category: 'backend' }
         ];
 
         // Scroll to section function
@@ -127,7 +119,6 @@ https://templatemo.com/tm-600-prism-flux
             const item = document.createElement('div');
             item.className = 'carousel-item';
             item.dataset.index = index;
-            
             const techBadges = data.tech.map(tech => 
                 `<span class="tech-badge">${tech}</span>`
             ).join('');
