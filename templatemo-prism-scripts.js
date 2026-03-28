@@ -49,27 +49,43 @@ https://templatemo.com/tm-600-prism-flux
             }
         ];
 
-        // Skills data
         const skillsData = [
-            { name: 'React.js', icon: '⚛️', level: 60, category: 'frontend' },
-            { name: 'C#', icon: '🟢', level: 95, category: 'backend' },
-            { name: 'C#', icon: '🟢', level: 90, category: 'frontend' },
-            { name: 'JavaScript', icon: '🟢', level: 70, category: 'frontend' },
-            { name: 'SQLite', icon: '🟢', level: 90, category: 'backend' },
-            { name: 'SQL Server', icon: '🟢', level: 90, category: 'backend' },
-            { name: 'MySQL', icon: '🟢', level: 90, category: 'backend' },
-            { name: 'JAVA', icon: '🟢', level: 90, category: 'programación' },
-            { name: '.NET MAUI', icon: '🟢', level: 90, category: 'frontend' },
-            { name: 'Blazor', icon: '🟢', level: 95, category: 'backend' },
-            { name: 'Blazor Web Assembly', icon: '🟢', level: 95, category: 'frontend' },
-            { name: '.NET Core API', icon: '🟢', level: 90, category: 'backend' },
-            { name: '.NET Core', icon: '🟢', level: 90, category: 'programación' },
-            { name: 'TypeScript', icon: '📘', level: 88, category: 'frontend' },
-            { name: 'AWS', icon: '☁️', level: 92, category: 'cloud' },
-            { name: 'Google Cloud', icon: '☁️', level: 92, category: 'cloud' },
-            { name: 'Python', icon: '🐍', level: 93, category: 'backend' },
-            { name: 'GraphQL', icon: '◈', level: 87, category: 'backend' }
-        ];
+  // Frontend
+  { name: 'React.js', icon: '⚛️', level: 60, category: 'frontend' },
+  { name: 'JavaScript', icon: '🟨', level: 70, category: 'frontend' },
+  { name: 'TypeScript', icon: '📘', level: 88, category: 'frontend' },
+  { name: 'Blazor Web Assembly', icon: '🔷', level: 95, category: 'frontend' },
+  { name: '.NET MAUI', icon: '📱', level: 90, category: 'frontend' },
+  
+  // Backend
+  { name: 'C#', icon: '🔷', level: 95, category: 'backend' },
+  { name: 'Python', icon: '🐍', level: 93, category: 'backend' },
+  { name: 'JAVA', icon: '☕', level: 90, category: 'backend' },
+  { name: '.NET Core API', icon: '🔷', level: 90, category: 'backend' },
+  { name: 'Blazor', icon: '🔷', level: 95, category: 'backend' },
+  { name: 'GraphQL', icon: '◈', level: 87, category: 'backend' },
+  
+  // Databases
+  { name: 'SQL Server', icon: '🗄️', level: 90, category: 'database' },
+  { name: 'MySQL', icon: '🐬', level: 90, category: 'database' },
+  { name: 'SQLite', icon: '📁', level: 90, category: 'database' },
+  
+  // Cloud
+  { name: 'AWS', icon: '☁️', level: 92, category: 'cloud' },
+  { name: 'Google Cloud', icon: '☁️', level: 92, category: 'cloud' },
+  
+  // Programming Languages & Core
+  { name: '.NET Core', icon: '🔷', level: 90, category: 'core' },
+
+  //Font is awesome
+  { name: 'React.js', icon: 'fab fa-react', iconType: 'fontawesome', level: 60, category: 'frontend' },
+  { name: 'C#', icon: 'devicon-csharp-plain', iconType: 'devicon', level: 95, category: 'backend' },
+  { name: 'JavaScript', icon: 'fab fa-js', iconType: 'fontawesome', level: 70, category: 'frontend' },
+  { name: 'TypeScript', icon: 'devicon-typescript-plain', iconType: 'devicon', level: 88, category: 'frontend' },
+  { name: 'Python', icon: 'fab fa-python', iconType: 'fontawesome', level: 93, category: 'backend' },
+  { name: 'AWS', icon: 'fab fa-aws', iconType: 'fontawesome', level: 92, category: 'cloud' },
+  { name: 'SQL Server', icon: 'devicon-microsoftsqlserver-plain', iconType: 'devicon', level: 90, category: 'database' },
+];
 
         // Scroll to section function
         function scrollToSection(sectionId) {
