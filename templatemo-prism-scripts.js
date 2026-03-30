@@ -23,7 +23,7 @@
                 id: 3,
                 title: 'App recetas multiplataforma',
                 description: 'Alto rendimiento utilizando la mejor combinación entre multiplataforma con código nativo, gestión de tienda de aplicaciones.',
-                image: 'images/yummyplanner.png',
+                image: 'images/yummyplanner.jpg',
                 tech: ['C#', '.NET MAUI', 'Java','.NET Core', 'SQLite', 'SQL Server', 'ASP .NET Core API','Apache Spark']
             },
             {
