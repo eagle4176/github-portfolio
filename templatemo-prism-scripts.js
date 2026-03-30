@@ -16,7 +16,7 @@
                 id: 2,
                 title: 'WEBS estáticas',
                 description: 'Alto rendimiento, prototipado y diseñado moderno, con respuestas dinámicas.',
-                image: 'images/web.gif                                                                                                                                                                                                                                                                                                          nn',
+                image: 'images/web.gif',                                                                                                                                                                                                                                                                                                         
                 tech: ['JavaScript', 'TypeScript', 'HTML5','CSS','Tailwind']
             },
             {
