@@ -16,7 +16,7 @@
                 id: 2,
                 title: 'WEBS estáticas',
                 description: 'Alto rendimiento, prototipado y diseñado moderno, con respuestas dinámicas.',
-                image: 'images/propulsa.png                                                                                                                                                                                                                                                                                                                    nn',
+                image: 'images/web.jpg                                                                                                                                                                                                                                                                                                          nn',
                 tech: ['JavaScript', 'TypeScript', 'HTML5','CSS','Tailwind']
             },
             {
@@ -30,14 +30,14 @@
                 id: 4,
                 title: 'App finanzas',
                 description: 'Alto rendimiento, diseño moderno e intuitivo.',
-                image: 'images/mybudgy.png',
+                image: 'images/mybudgy.jpg',
                 tech: ['C#','.NET MAUI','JAVA','SQLite', 'SQL Server']
             },
             {
                 id: 5,
                 title: 'WEB App (Sistema integral)',
                 description: 'Sistema integral con alto procesamiento de información, con una base de datos optimizada, UI intuitivo.',
-                image: 'images/¡dashboard.png',
+                image: 'images/dashboard.png',
                 tech: ['Apache Spark', 'C#','HTML5', 'CSS', 'Blazor Web Assemby','ASP .NET Core API']
             }
         ];
